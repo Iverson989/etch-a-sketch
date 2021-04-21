@@ -12,9 +12,7 @@ float/clear
 inline-block
 flexbox
 CSS Grid
-
 Be careful with borders and margins, they can adjust the size of the squares!
-
 “OMG, Why isn’t my grid being created???”
 Did you link your CSS stylesheet?
 Open your browser’s developer tools
