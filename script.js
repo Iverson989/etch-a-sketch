@@ -1,8 +1,13 @@
-const gridDiv = document.querySelector("#grid-div");
-const createDiv = document.createElement("div");
-
-// heres a function to create the div, using above vars. I/O is number from input element
+// Input is number, Output is that number of divs added to gridDiv
 function createGrid(inputNum) {
-  // some loop that creates and appends divs until inputNum is satisfied
+  // loop runs inputNum times
+  for (var i = 0; i < inputNum; i++) {
+    // for each loop, create a div
+    const createDiv = document.createElement("div");
+    // assign class pixels to div
+    createDiv.className = "pixels";
+    // append div to gridDiv
+    document.getElementById("grid-div").appendChild(createDiv);
+  }
+  return;
 }
-
