@@ -2,12 +2,11 @@
   height: auto;
   width: auto;
   background-color: blue;
-  margin: 1px;
   border: 1px black solid;
 }
 
 #grid-div {
   display: grid;
-  max-width: 80vmin;
-  min-height: 80vmin;
+  max-width: 95vmin;
+  min-height: 95vmin;
 }
