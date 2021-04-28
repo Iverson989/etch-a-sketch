@@ -3,7 +3,7 @@
   width: auto;
   background-color: blue;
   margin: 1px;
-  border-color: black;
+  border: 1px black solid;
 }
 
 #grid-div {
