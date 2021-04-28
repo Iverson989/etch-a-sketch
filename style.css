@@ -1,0 +1,11 @@
+.pixels {
+  height: 25px;
+  width: 25px;
+  background-color: blue;
+  margin: 1px;
+  border-color: black;
+}
+
+#grid-div {
+  height: 400px;
+}
