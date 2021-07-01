@@ -1,6 +1,5 @@
 // gives easy access to elements
 const gridDiv = document.getElementById("grid-div");
-const pixels = document.getElementsByClassName("pixels");
 
 // Input is same as createGrid, Output is a square dislay scheme
 function layoutSquare(inputNum) {
@@ -26,3 +25,11 @@ function createGrid(inputNum) {
 
 // set initial 16X16 grid
 createGrid(16);
+
+// add listeners with color change function
+const pixels = document.querySelectorAll(".pixels");
+pixels.forEach((pixel) => {
+  pixel.addEventListener("mouseenter", (pixels) => {
+    pixel.style.backgroundColor = "black";
+  });
+});
