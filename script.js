@@ -1,6 +1,12 @@
 // gives easy access to parent element
 const gridDiv = document.getElementById("grid-div");
 
+// Input is same as createGrid, Output is a square dislay scheme
+function layoutSquare(inputNum) {
+  gridDiv.style.gridTemplateColumns = `repeat(${inputNum}, 1fr)`;
+  gridDiv.style.gridTemplateRows = `repeat(${inputNum}, 1fr)`;
+}
+
 // Input is number, Output is that number of divs added to gridDiv
 function createGrid(inputNum) {
   // loop runs inputNum times
@@ -17,10 +23,5 @@ function createGrid(inputNum) {
   return;
 }
 
-// Input is same as createGrid, Output is a square dislay scheme
-function layoutSquare(inputNum) {
-  gridDiv.style.gridTemplateColumns = `repeat(${inputNum}, 1fr)`;
-  gridDiv.style.gridTemplateRows = `repeat(${inputNum}, 1fr)`;
-}
-
+//set initial 16X16 grid
 createGrid(16);
