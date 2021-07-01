@@ -22,3 +22,5 @@ function layoutSquare(inputNum) {
   gridDiv.style.gridTemplateColumns = `repeat(${inputNum}, 1fr)`;
   gridDiv.style.gridTemplateRows = `repeat(${inputNum}, 1fr)`;
 }
+
+createGrid(16);
