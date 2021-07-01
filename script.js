@@ -1,5 +1,6 @@
-// gives easy access to parent element
+// gives easy access to elements
 const gridDiv = document.getElementById("grid-div");
+const pixels = document.getElementsByClassName("pixels");
 
 // Input is same as createGrid, Output is a square dislay scheme
 function layoutSquare(inputNum) {
