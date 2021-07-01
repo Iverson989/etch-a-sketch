@@ -10,7 +10,12 @@
   <body>
     <div id="page-div">
       <div id="ui-div">
-        <form action=""></form>
+        <form target="_self">
+          <label for="grid-size"
+            >How many rows/columns in your grid?(4-100)</label
+          ><br />
+          <input type="text" id="grid-size" name="grid-size" /><br />
+        </form>
       </div>
       <div id="grid-div"></div>
     </div>
