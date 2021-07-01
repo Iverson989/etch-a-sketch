@@ -1,4 +1,4 @@
-// gives easy access to elements
+// gives easy access to parent element
 const gridDiv = document.getElementById("grid-div");
 
 // Input is same as createGrid, Output is a square dislay scheme
