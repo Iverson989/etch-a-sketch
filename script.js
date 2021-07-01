@@ -23,5 +23,5 @@ function createGrid(inputNum) {
   return;
 }
 
-//set initial 16X16 grid
+// set initial 16X16 grid
 createGrid(16);
