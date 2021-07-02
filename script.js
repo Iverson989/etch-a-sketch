@@ -52,7 +52,7 @@ function reset() {
 function selectSize() {
   reset();
   var size = prompt("Number of pixels per side?", "1-100");
-  if (typeof size != "number" && size > 0) {
+  if (typeof size != "number" && size <= 100 && size > 0) {
     createGrid(size);
   } else {
     var size2 = prompt(
